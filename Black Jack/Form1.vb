@@ -17,7 +17,7 @@ Public Class Form1
         Dim Randomnumbers As Integer = 0
         Dim countofcards As Integer = 0
 
-        Do While countofcards < 1k0
+        Do While countofcards < 10
             Randomnumbers = generator.Next(0, 51)
             Select Case Randomnumbers
                 Case intplayercard1, intplayercard2, intplayercard3, intplayercard4, intplayercard5, intdealercard1, intdealercard2, intdealercard3, intdealercard4, intdealercard5
